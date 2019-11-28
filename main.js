@@ -1,5 +1,5 @@
 const reader = require('readline-sync');
-const utils = require('./converter');
+const utils = require('./conventer');
 
 const number = reader.questionInt("Please enter the number you want to convert = ");
 const choice = reader.questionInt("Please enter choice: \n 1:Binary \n 2:Hexadecimal \n");
